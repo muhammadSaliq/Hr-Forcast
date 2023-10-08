@@ -1,0 +1,19 @@
+.lists {
+    margin-left: 20px;
+}
+.buttons {
+    margin-left: 25px;
+    background-color: #ff5f1f;
+    border: none;
+    width: 60px;
+    height: 30px;
+    border-radius: 10;
+}
+.buttons:hover{
+    background-color: #f04a00;
+    transition: 0.3s;
+    
+}
+.navdiv {
+    background-color: aqua;
+}
