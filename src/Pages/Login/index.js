@@ -5,6 +5,7 @@ import Button from '@mui/material/Button';
 import React, { useState } from 'react';
 import Snackbar from '@mui/material/Snackbar';
 import "./login.css"
+import Navbars from '../../components/navbar';
 
 const Login = () => {
 
@@ -25,25 +26,9 @@ const Login = () => {
 
     };
 
-    const handlesubmit = async () => {
-        const userData = {userEmail,password};
-        const response = await fetch('http://localhost:3000/users/login' , {
-            method: "POST",
-            headers: {
-                "content-type": "application/json"
-            },
-            body : JSON.stringify(userData)
-        });
-        const data = await response.json();
-        if (data.user){
-        localStorage.setItem('user', JSON.stringify(data.user));
-        localStorage.setItem('token', JSON.stringify(data.token));
-        navigate('/addproduct')
-        return;
-    }
-}
     return (
 <>
+<Navbars/>
 <div className='rootcontainer'>
         <h2>Login</h2>
         <TextField fullWidth value={userEmail} onChange={handlecchange} name="userEmail" label="User Email" variant="outlined" />

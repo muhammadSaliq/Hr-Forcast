@@ -3,17 +3,19 @@
 }
 .buttons {
     margin-left: 25px;
-    background-color: #ff5f1f;
+    background-color: #FFA500;
     border: none;
     width: 60px;
     height: 30px;
-    border-radius: 10;
+    border-radius: 25px;
 }
 .buttons:hover{
-    background-color: #f04a00;
+    background-color: #09272b;
     transition: 0.3s;
+    color: white;
     
 }
 .navdiv {
-    background-color: aqua;
+background-color: #f04a00;
+width:1500px ;
 }

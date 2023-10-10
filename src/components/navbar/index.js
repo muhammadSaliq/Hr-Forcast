@@ -3,13 +3,15 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import { Button } from 'bootstrap';
 import './navbar.css'
+import { Link, useNavigate } from 'react-router-dom';
 
 const Navbars = () => {
+  const navigate = useNavigate();
 
     return (
         <>
-             
-<Navbar className="bg-body-tertiary navdiv">
+
+<Navbar className="bg-body-tertiary ">
    <Container >
       <Navbar.Brand href="#home">
             <img
@@ -34,7 +36,7 @@ const Navbars = () => {
           <Navbar.Text className="lists">
             Contact us
           </Navbar.Text>
-<button className="buttons">login</button>
+<button className="buttons" onClick={navigate('/login')}>login</button>
         </Navbar.Collapse>
       </Container>
     </Navbar>

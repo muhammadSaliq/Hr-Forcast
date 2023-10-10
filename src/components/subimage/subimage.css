@@ -1,0 +1,37 @@
+.images {
+    background-image: url("https://lifexchangesolutions.com/wp-content/uploads/2020/08/HR-Fourth-Revolution_New-Roles-of-HR_2.jpg");
+    width: 1585px;
+    height: 740px;
+    background-size: cover;
+ 
+    
+}
+.subdiv {
+    padding-left: 95px;
+    padding-top: 130px;
+}
+.texts {
+    color: white;
+
+}
+.subtext {
+    color: white;
+    margin-top: 5px;
+    margin-left: 8px;
+}
+
+.buttonss {
+    margin-left: 35px;
+    background-color: #FFA500;
+    border: none;
+    width: 160px;
+    height: 35px;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+.buttonss:hover{
+    background-color: #09272b;
+    transition: 0.3s;
+    color: white;
+    
+}
