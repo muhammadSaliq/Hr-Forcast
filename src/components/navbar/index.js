@@ -24,19 +24,24 @@ const Navbars = () => {
           </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
+          <Link to={"/"}>
           <Navbar.Text className="lists">
             Home
           </Navbar.Text>
+          </Link>
+          <Link to={"/about"}>
           <Navbar.Text className="lists">
             About Us
           </Navbar.Text>
+                    </Link>
           <Navbar.Text className="lists">
             Services
           </Navbar.Text>
           <Navbar.Text className="lists">
             Contact us
           </Navbar.Text>
-<button className="buttons" onClick={navigate('/login')}>login</button>
+<button className="buttons" onClick={() => {navigate('/login')}}>login</button>
+<button className="buttons2" onClick={() => {navigate('/signup')}}>Register</button>
         </Navbar.Collapse>
       </Container>
     </Navbar>

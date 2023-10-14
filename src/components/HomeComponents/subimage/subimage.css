@@ -1,5 +1,6 @@
 .images {
-    background-image: url("https://lifexchangesolutions.com/wp-content/uploads/2020/08/HR-Fourth-Revolution_New-Roles-of-HR_2.jpg");
+  /*  background-image: url("https://lifexchangesolutions.com/wp-content/uploads/2020/08/HR-Fourth-Revolution_New-Roles-of-HR_2.jpg");*/
+  background-image: url("../../../assets/subimage.jpg");
     width: 1585px;
     height: 740px;
     background-size: cover;

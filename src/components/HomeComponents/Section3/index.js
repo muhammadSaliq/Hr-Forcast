@@ -2,6 +2,7 @@ import './section3.css'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import img2 from '../../../assets/img2.webp';
 
 const Section3 = () => {
 
@@ -14,7 +15,7 @@ const Section3 = () => {
         <br/>along with current job details
         </p>
         </Col>
-        <Col><img src="https://www.biposervice.com/wp-content/uploads/2023/05/2.1-Flexible-Payroll-Scheduling-2-1024x787.webp" className="imgss" alt="img" /></Col>
+        <Col><img src={img2} className="imgss" alt="img" /></Col>
       </Row>
 
     </div>

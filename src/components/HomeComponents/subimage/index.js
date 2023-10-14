@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import { Button } from 'bootstrap';
 import './subimage.css'
-import Navbars from "../../components/navbar";
+import Navbars from '../../navbar';
 
 const Subimage = () => {
 
